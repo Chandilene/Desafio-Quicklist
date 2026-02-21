@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quicklist</title>
+    <link rel="stylesheet" href="styles.css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <header class="only-desktop">
+        <img src="assets/logo.svg" alt="" />
+      </header>
+      <nav>
+        <a href="#">
+          <img src="assets/arrow_back.svg" alt="" />
+          Voltar
+        </a>
+      </nav>
+
+      <h1>Compras da semana</h1>
+
+      <form action="">
+        <input type="text" name="" id="" placeholder="Adicione um novo item" />
+        <button class="add-item">Adicionar item</button>
+      </form>
+
+      <ul role="list">
+        <li>
+          <input type="checkbox" name="item1" id="item1" />
+
+          <label for="item1">Pão de forma</label>
+          <button><img src="assets/trash.svg" alt="" /></button>
+        </li>
+        <li>
+          <input type="checkbox" name="item2" id="item2" />
+
+          <label for="item2">Pão de forma</label>
+          <button><img src="assets/trash.svg" alt="" /></button>
+        </li>
+      </ul>
+
+      <span class="remove-item">
+        <img src="assets/warning-circle-filled.svg" alt="" />
+        O item foi removido da lista
+        <img src="assets/delete-small.svg" alt="" />
+      </span>
+    </div>
+  </body>
+</html>
