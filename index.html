@@ -28,30 +28,26 @@
       <h1>Compras da semana</h1>
 
       <form action="">
-        <input type="text" name="" id="" placeholder="Adicione um novo item" />
+        <input
+          type="text"
+          name="item"
+          id="item"
+          placeholder="Adicione um novo item"
+        />
         <button class="add-item">Adicionar item</button>
       </form>
 
-      <ul role="list">
-        <li>
-          <input type="checkbox" name="item1" id="item1" />
+      <ul role="list" id="listItems"></ul>
 
-          <label for="item1">Pão de forma</label>
-          <button><img src="assets/trash.svg" alt="" /></button>
-        </li>
-        <li>
-          <input type="checkbox" name="item2" id="item2" />
-
-          <label for="item2">Pão de forma</label>
-          <button><img src="assets/trash.svg" alt="" /></button>
-        </li>
-      </ul>
-
-      <span class="remove-item">
+      <div class="remove-item">
         <img src="assets/warning-circle-filled.svg" alt="" />
-        O item foi removido da lista
-        <img src="assets/delete-small.svg" alt="" />
-      </span>
+        <p>O item foi removido da lista</p>
+        <button>
+          <img src="assets/delete-small.svg" alt="" />
+        </button>
+      </div>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
